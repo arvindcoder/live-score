@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #90a10d;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.match {
+  background-color: #756a6a;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.match-status {
+  margin-top: 10px;
+}
+
+.details {
+  margin-top: 15px;
+}
+
+.error,
+.loading {
+  color: red;
+  font-size: 18px;
+}
+
+.loading {
+  color: green;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
