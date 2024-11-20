@@ -76,6 +76,14 @@ export default function App() {
               </p>
               <p>Toss: {match.event_toss}</p>
               <p>Stadium: {match.event_stadium}</p>
+              <p>
+                {match.event_home_team}:{" "}
+                {match.event_home_final_result || "N/A"}
+              </p>
+              <p>
+                {match.event_away_team}:{" "}
+                {match.event_away_final_result || "N/A"}
+              </p>
             </div>
           </div>
         ))
